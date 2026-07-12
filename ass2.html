@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+
+    <link rel="stylesheet" href="ass2.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Login Card -->
+    <div class="login-card" id="loginCard">
+
+        <h1><i class="fa-solid fa-user-graduate"></i> Student Portal</h1>
+
+        <div class="input-box">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="username" placeholder="Username">
+        </div>
+
+        <div class="input-box">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" id="password" placeholder="Password">
+        </div>
+
+        <button onclick="login()">➜]Login</button>
+
+        <p id="message"></p>
+
+    </div>
+
+    <!-- Dashboard -->
+
+    <div class="dashboard" id="dashboard">
+
+        <img src="https://img.magnific.com/premium-vector/woman-avatar-profile-icon-vector-illustration_874723-207.jpg?semt=ais_hybrid&w=740&q=80">
+
+        <h2 id="welcome"></h2>
+
+        <h3 id="datetime"></h3>
+
+        <button onclick="logout()">Logout</button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
